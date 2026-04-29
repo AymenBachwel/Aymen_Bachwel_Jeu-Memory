@@ -65,6 +65,21 @@ function startGame(level) {
   });
 
 
+
+//pour le bouton de mode devient attirant
+document.querySelectorAll("#controls button").forEach(btn => {
+  btn.classList.remove("active");
+});
+
+if (level === "easy") {
+  document.querySelector("#controls button:nth-child(1)").classList.add("active");
+} else if (level === "medium") {
+  document.querySelector("#controls button:nth-child(2)").classList.add("active");
+} else {
+  document.querySelector("#controls button:nth-child(3)").classList.add("active");
+}
+
+
 }
 
 //  shuffle correct (Fisher-Yates)
