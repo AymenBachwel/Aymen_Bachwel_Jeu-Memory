@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Memory Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1> Memory Game</h1>
+
+<div id="controls">
+  <button onclick="startGame('easy')">Facile</button>
+  <button onclick="startGame('medium')">Moyen</button>
+  <button onclick="startGame('hard')">Difficile</button>
+</div>
+
+<div class="info">
+  <p> Temps : <span id="timer">0</span>s</p>
+  <p> Score : <span id="score">0</span></p>
+</div>
+
+<div id="game-board"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
