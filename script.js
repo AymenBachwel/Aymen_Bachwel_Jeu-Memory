@@ -143,3 +143,5 @@ function checkWin() {
     }, 300);
   }
 }
+
+startGame("easy");//pour le debut de jeu par mode facile
