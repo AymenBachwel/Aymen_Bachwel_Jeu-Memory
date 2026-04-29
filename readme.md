@@ -44,6 +44,7 @@ Durant ce projet, j’ai appris à :
 - créer un système de logique de jeu
 - utiliser des fonctions pour structurer le code
 - organiser un projet web complet
+- utiliser GitHub pour la gestion et le stockage du projet
 
 ---
 
